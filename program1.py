@@ -39,5 +39,5 @@ myHappyDeathString = """
 .......     .............      ....................
 I am Death Start!!! God by world!!               .......      ............ ..... ..  ...............
 """
-print(myHappyDeathString)
+print(\x1b[2;37;41mWorld,myHappyDeathString)
 
