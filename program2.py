@@ -8,7 +8,7 @@ while(1):
 	# ball string
 	string = "*                                                  "
 	# move it to right end
-	for y in range(len(string)):
+	for y in range(len(string)-1):
 		print(f"\033[38;2;{r};{g};{b}m",end="")
 		newStr = ""
 		# shif right
@@ -36,7 +36,7 @@ while(1):
 		time.sleep(0.05+0.09*(abs(len(string)/2-y))/len(string))
 
 	# move it to left end
-	for y in range(len(string)):
+	for y in range(len(string)-1):
 		print(f"\033[38;2;{r};{g};{b}m",end="")
 		newStr = ""
 		# shif left
